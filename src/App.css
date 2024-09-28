@@ -1,0 +1,81 @@
+/* App.css */
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #ffffff;
+  }
+  
+  .header, .footer {
+    background-color: #3a7dff;
+    color: white;
+    padding: 20px 0;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #6c63ff;
+    padding: 15px 0;
+  }
+  
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    color: #f3f4f6;
+  }
+  
+  .hero-section {
+    background-image: url('./assets/maldives.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+  }
+  
+  .features-section, .about-section, .testimonials-section {
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .features-section h2, .about-section h2, .testimonials-section h2 {
+    font-size: 2.5em;
+    color: #3a7dff;
+  }
+  
+  .feature-item, .testimonial-item {
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f3f4f6;
+    border-radius: 8px;
+  }
+  
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #6c63ff;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
