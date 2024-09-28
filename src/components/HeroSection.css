@@ -1,0 +1,21 @@
+/* HeroSection.css */
+.hero-section {
+    background-image: url('../assets/maldives.jpeg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 4em;
+    margin: 0;
+  }
+  
+  .hero-section p {
+    font-size: 1.5em;
+  }
+  
